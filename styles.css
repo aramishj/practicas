@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+
+ol ul{
+    /* list-style: none; */
+}
+
+a{
+    /* text-decoration: none; */
+}
+header{
+    display: flex;
+    background-color: darkcyan;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a i {
+    color: wheat;
+    font-size: 2em;
+    padding: 0.5em;
+}
+header nav ul{
+    display: flex;
+    gap: 1.1em;
+    margin-right: 2em;
+}
+header li{
+    list-style: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer nav ul {
+    list-style: none;
+
+}
+
+.Seccion1{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+/* .Seccion2 img{ */
+    /* width: 100%; */
+
+/* } */
+
+.Seccion3 img{
+    width:50%;
+   
+}
+
+.Trabajos {
+    display:flex;
+    /* flex-direction: row; */
+    align-items:center;
+    text-align: center;
+    width:100%; */
+    justify-content: space-around;
+    justify-self: center;
+}
+
+.ParrafoTrabajos1 {
+    display:block;
+    width:450px;
+    align-items: justify;
+    justify-content: space-around;
+    justify-self: center;
+}
+
+.ParrafoTrabajos2 {
+    display:block;
+    width:500px;
+    align-items: justify;
+    justify-content: space-around;
+    justify-self: center;
+}
+
+
+.Seccion4 img{
+    width:80%;
+    ;
+   
+}
+
+.Servicios{
+    display:flex;
+    /* flex-direction: row; */
+    align-items:center;
+    text-align: center;
+    width:100%; */
+    /* justify-content: space-around; */
+    justify-self: flex-start;
+}
+
+
+.ParrafoServicios1 {
+    display:block;
+    width:450px;
+    align-items: flex-start;
+    justify-content: space-around;
+    justify-self: center;
+}
+
+.ParrafoServicios2 {
+    display:block;
+    width:450px;
+    align-items: flex-start;
+    justify-content: space-around;
+    justify-self: center;
+}
+
+
+.ParrafoServicios3 {
+    display:block;
+    width:450px;
+    align-items:flex-start;
+    justify-content: space-around;
+    justify-self: flex-start;
+}
+
+
+
+
+
+
+#footer h3 {
+    color: #b59a61;
+}
+
+h3{
+    diplay: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#footer a i.fa-solid.fa-plug.fixed{
+position: fixed;
+bottom: 22px;
+right: 15px;
+color: wheat;
+font-size: 2em;
+padding: 0.5em;
+}
+
+#frase{
+        text-align:center;
+}
+
+#btn-generar{
+    font-size:medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+    text-decoration:solid;
+    background-color:wheat
+    
+}

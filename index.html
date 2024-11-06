@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- CONTENEDOR SEMÁNTICO -->
+   
+    <!-- Imagen de la ficha de conexión -->
+    <script src="https://kit.fontawesome.com/c2e7ac598e.js" crossorigin="anonymous"></script>
+   
+    <!-- Texto de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html">
+                <i class="fa-solid fa-plug"></i>
+            </a>
+            
+            <nav>
+                <ul>
+                    <li>Inicio</li>
+                    <li><a href="#acerca">Acerca de mi</a></li>
+                    <li><a href="#Trabajos">Trabajos</a></li>
+                    <li><a href="#Servicios">Servicios</a></li>
+                    <li>
+                        <a href="formulario/formulario.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- RESTO DE ELEMENTOS -->       
+            
+            <!-- RESTO DE ELEMENTOS -->
+        </header>
+
+        <main id="SeccionPrincipal">
+            <section class="Seccion1">
+                <div class="AcercaDe">
+                    <h2 id="acerca">Acerca de Mi</h2>
+                    <p>
+                        Bienvenido a esta Primera Web en la que estoy practicando cómo generar sitios Web orientados a la difusión de conocimientos sobre el mundo de la Ingeniería Eléctrica.  Comenzando por los conocimientos básicos de electricidad, hasta las nuevas técnicas para llevar a cabo Proyectos de automatización y Control
+                    </p>
+                    <p>
+                        Súbanse a esta experiencia e intercambiemos conocimientos sobre Ingeniería Eléctrica.
+                    </p>
+                </div>
+                <div class="AcercaDeImagen">
+                    <img src="images/tableros.jpg" alt="Tableros">
+
+                </div>
+
+            </section>
+            <!-- <section class="Seccion2">
+                <img src="images/reles.jpg" alt="Reles en Tablero">
+            </section> -->
+            <section class="Seccion3">
+                <h2 id="Trabajos">Trabajos</h2>
+                <div class="Trabajos">
+                    <div class="ImagenTrabajos1">
+                        <img src="/images/Trabajos1.jpg" alt="Imagen de Trabajos 1">
+                        <p class="ParrafoTrabajos1">
+                        Esta es una imagen ilustrativas de los Trabajos vinculados a la formación de nuevos talentos en el área de la Ingeniería Eléctrica y ramas anexas.  Se dictan cursos vinculados a Formación básica de Electricidad
+                        </p>
+                    </div>
+                    <div class="ImagenTrabajos2">
+                        <img src="/images/Trabajos2.jpg" alt="Imagen de Trabajo 2">
+                        <p class="ParrafoTrabajos2">
+                        En este caso se presentan los trabajos vinculados a las obras de Cableado de Sistemas de Control de subestaciones de Media, Alta y Extra Alta Tensión a los efectos de tener una idea de los servicios ofrecidos en este rubro.
+                        </p>
+                    </div>
+            </section>
+            <section class="Seccion4">
+                <h2 id="Servicios">Servicios</h2>
+                <div class="Servicios">
+                    
+                    <div class="ImagenServicios1">
+                        <img src="/images/Servicios1.jpg" alt="Imagen de Servicios 1">
+                        <p class="ParrafoServicios1">
+                        Esta es una imagen ilustrativas de los Servicios vinculados a la formación de nuevos talentos en el área de la Ingeniería Eléctrica y ramas anexas.  Se dictan cursos vinculados a Formación básica de Electricidad
+                        </p>
+                    </div>
+                    <div class="ImagenServicios2">
+                        <img src="/images/Servicios2.jpg" alt="Imagen de Servicios 2">
+                        <p class="ParrafoServicios2">
+                        En este caso se presentan los Servicios vinculados a las obras de Cableado de Sistemas de Control de subestaciones de Media, Alta y Extra Alta Tensión a los efectos de tener una idea de los servicios ofrecidos en este rubro.
+                        </p>
+                    </div>
+                    <div class="ImagenServicios3">
+                        <img src="/images/Servicios3.jpg" alt="Imagen de Servicios 3">
+                        <p class="ParrafoServicios3">
+                        Consultoría de obra vinculada a los Sistemas de Protección y Control de subestaciones.  Esto incluye seguimiento de Obras, elaboración de insumos para Grupos de Trabajo de Montaje, Supervisión de Obra y demás tareas vinculadas. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div id="footer">
+            <a href="index.html">
+                <i class="fa-solid fa-plug fixed"></i>
+            </a>
+            <h3 class="fuente-acento">Redes</h3>
+            <nav>
+                <ul>
+                    <li>WhatsApp</li>
+                    <li>LinkedIn</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </nav>
+            <button id="btn-generar">Generar Frase Aleatoria</button>
+        </div>
+        <p id="frase"></p>
+        <script src="index.js"></script>
+    </footer>   
+</body>
+</html>
